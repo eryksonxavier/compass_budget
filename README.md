@@ -204,11 +204,5 @@
 
 ## Custo da Migração no AWS Cost Calculator
 
-- **Título:**  
-  - No Etapa 1, como não utilizamos load balancers (devido a ter apenas duas instâncias EC2 e um fluxo sequencial – uma redireciona para a outra), essa parte é omitida.  
-  - No Etapa 2, se utilizar um load balancer ou Ingress Controller para o tráfego externo, ele deverá ser implantado em subnets públicas em cada AZ para alta disponibilidade, mesmo que seja um único LB que se estenda por ambos os AZs.
-  
-- **Título 2**  
-  - **EC2 Auto Scaling:** Para os nós de worker do EKS, garantindo que a capacidade aumente ou diminua automaticamente conforme a demanda.
-  - **Kubernetes Horizontal Pod Autoscaler (HPA):** Para ajustar automaticamente o número de pods com base na carga.
-  - **Opcionalmente:** Configurar autoscaling para o RDS, se necessário, e para o armazenamento S3, conforme a demanda.
+- **[Estimativa Migração](https://calculator.aws/#/estimate?id=df13a1f275762797f92adabc00c76913b5d0163a)**  
+  - **Estimativa Modernização**  
