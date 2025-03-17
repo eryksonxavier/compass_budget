@@ -205,4 +205,4 @@
 ## Custo da Migração no AWS Cost Calculator
 
 - **[Estimativa Migração](https://calculator.aws/#/estimate?id=df13a1f275762797f92adabc00c76913b5d0163a)**  
-  - **Estimativa Modernização**  
+- [**Estimativa Modernização** ](https://calculator.aws/#/estimate?id=946c4eb8395e879164fa5ef49d6b9beafb9516c1) 
